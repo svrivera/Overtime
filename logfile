@@ -4,3 +4,11 @@
 2020-04-24 13:15:43.181 -04 [4561] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2020-04-24 13:15:43.196 -04 [4562] LOG:  database system was shut down at 2020-04-24 13:15:34 -04
 2020-04-24 13:15:43.199 -04 [4561] LOG:  database system is ready to accept connections
+2020-04-25 12:30:42.975 -04 [13390] ERROR:  database "Overtime_development" already exists
+2020-04-25 12:30:42.975 -04 [13390] STATEMENT:  CREATE DATABASE "Overtime_development" ENCODING = 'unicode'
+2020-04-25 12:30:42.989 -04 [13396] ERROR:  database "Overtime_test" already exists
+2020-04-25 12:30:42.989 -04 [13396] STATEMENT:  CREATE DATABASE "Overtime_test" ENCODING = 'unicode'
+2020-04-25 12:32:21.013 -04 [13433] ERROR:  database "Overtime_development" already exists
+2020-04-25 12:32:21.013 -04 [13433] STATEMENT:  CREATE DATABASE "Overtime_development" ENCODING = 'unicode'
+2020-04-25 12:32:21.023 -04 [13441] ERROR:  database "Overtime_test" already exists
+2020-04-25 12:32:21.023 -04 [13441] STATEMENT:  CREATE DATABASE "Overtime_test" ENCODING = 'unicode'
