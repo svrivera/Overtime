@@ -12,3 +12,55 @@
 2020-04-25 12:32:21.013 -04 [13433] STATEMENT:  CREATE DATABASE "Overtime_development" ENCODING = 'unicode'
 2020-04-25 12:32:21.023 -04 [13441] ERROR:  database "Overtime_test" already exists
 2020-04-25 12:32:21.023 -04 [13441] STATEMENT:  CREATE DATABASE "Overtime_test" ENCODING = 'unicode'
+2020-04-27 10:45:02.734 -04 [20493] ERROR:  column posts.user_id does not exist at character 37
+2020-04-27 10:45:02.734 -04 [20493] STATEMENT:  SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1 ORDER BY "posts"."id" DESC LIMIT $2
+2020-04-27 10:50:02.875 -04 [20595] ERROR:  database "Overtime_development" already exists
+2020-04-27 10:50:02.875 -04 [20595] STATEMENT:  CREATE DATABASE "Overtime_development" ENCODING = 'unicode'
+2020-04-27 10:50:02.885 -04 [20596] ERROR:  database "Overtime_test" already exists
+2020-04-27 10:50:02.885 -04 [20596] STATEMENT:  CREATE DATABASE "Overtime_test" ENCODING = 'unicode'
+2020-04-27 10:53:35.270 -04 [20698] ERROR:  database "Overtime_development" already exists
+2020-04-27 10:53:35.270 -04 [20698] STATEMENT:  CREATE DATABASE "Overtime_development" ENCODING = 'unicode'
+2020-04-27 10:53:35.280 -04 [20706] ERROR:  database "Overtime_test" already exists
+2020-04-27 10:53:35.280 -04 [20706] STATEMENT:  CREATE DATABASE "Overtime_test" ENCODING = 'unicode'
+2020-04-27 11:52:10.956 -04 [21369] ERROR:  database "Overtime_development" already exists
+2020-04-27 11:52:10.956 -04 [21369] STATEMENT:  CREATE DATABASE "Overtime_development" ENCODING = 'unicode'
+2020-04-27 11:52:10.970 -04 [21377] ERROR:  database "Overtime_test" already exists
+2020-04-27 11:52:10.970 -04 [21377] STATEMENT:  CREATE DATABASE "Overtime_test" ENCODING = 'unicode'
+2020-04-27 12:03:06.404 -04 [21523] ERROR:  column posts.user_id does not exist at character 37
+2020-04-27 12:03:06.404 -04 [21523] STATEMENT:  SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1 ORDER BY "posts"."id" DESC LIMIT $2
+2020-04-27 12:06:43.405 -04 [21596] ERROR:  database "Overtime_development" already exists
+2020-04-27 12:06:43.405 -04 [21596] STATEMENT:  CREATE DATABASE "Overtime_development" ENCODING = 'unicode'
+2020-04-27 12:06:43.416 -04 [21604] ERROR:  database "Overtime_test" already exists
+2020-04-27 12:06:43.416 -04 [21604] STATEMENT:  CREATE DATABASE "Overtime_test" ENCODING = 'unicode'
+2020-04-27 12:07:06.562 -04 [21632] ERROR:  database "Overtime_development" already exists
+2020-04-27 12:07:06.562 -04 [21632] STATEMENT:  CREATE DATABASE "Overtime_development" ENCODING = 'unicode'
+2020-04-27 12:07:06.572 -04 [21640] ERROR:  database "Overtime_test" already exists
+2020-04-27 12:07:06.572 -04 [21640] STATEMENT:  CREATE DATABASE "Overtime_test" ENCODING = 'unicode'
+2020-04-27 12:07:14.853 -04 [21652] ERROR:  column posts.user_id does not exist at character 37
+2020-04-27 12:07:14.853 -04 [21652] STATEMENT:  SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = $1 ORDER BY "posts"."id" DESC LIMIT $2
+2020-04-27 12:13:04.318 -04 [21775] ERROR:  column "user_id" contains null values
+2020-04-27 12:13:04.318 -04 [21775] STATEMENT:  ALTER TABLE "posts" ADD "user_id" bigint NOT NULL
+2020-04-27 12:13:47.919 -04 [21825] ERROR:  database "Overtime_development" already exists
+2020-04-27 12:13:47.919 -04 [21825] STATEMENT:  CREATE DATABASE "Overtime_development" ENCODING = 'unicode'
+2020-04-27 12:13:47.930 -04 [21833] ERROR:  database "Overtime_test" already exists
+2020-04-27 12:13:47.930 -04 [21833] STATEMENT:  CREATE DATABASE "Overtime_test" ENCODING = 'unicode'
+2020-04-27 12:48:42.812 -04 [22435] ERROR:  database "Overtime_development" already exists
+2020-04-27 12:48:42.812 -04 [22435] STATEMENT:  CREATE DATABASE "Overtime_development" ENCODING = 'unicode'
+2020-04-27 12:48:42.823 -04 [22443] ERROR:  database "Overtime_test" already exists
+2020-04-27 12:48:42.823 -04 [22443] STATEMENT:  CREATE DATABASE "Overtime_test" ENCODING = 'unicode'
+2020-04-27 12:50:13.416 -04 [22516] ERROR:  database "Overtime_development" already exists
+2020-04-27 12:50:13.416 -04 [22516] STATEMENT:  CREATE DATABASE "Overtime_development" ENCODING = 'unicode'
+2020-04-27 12:50:13.427 -04 [22524] ERROR:  database "Overtime_test" already exists
+2020-04-27 12:50:13.427 -04 [22524] STATEMENT:  CREATE DATABASE "Overtime_test" ENCODING = 'unicode'
+2020-04-27 13:00:41.436 -04 [23076] ERROR:  null value in column "user_id" violates not-null constraint
+2020-04-27 13:00:41.436 -04 [23076] DETAIL:  Failing row contains (3, 2020-04-27, Bla bla bla, 2020-04-27 17:00:41.435473, 2020-04-27 17:00:41.435473, null).
+2020-04-27 13:00:41.436 -04 [23076] STATEMENT:  INSERT INTO "posts" ("date", "rationale", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"
+2020-04-27 13:00:41.440 -04 [23076] ERROR:  null value in column "user_id" violates not-null constraint
+2020-04-27 13:00:41.440 -04 [23076] DETAIL:  Failing row contains (4, 2020-04-27, Bla bla bla, 2020-04-27 17:00:41.439451, 2020-04-27 17:00:41.439451, null).
+2020-04-27 13:00:41.440 -04 [23076] STATEMENT:  INSERT INTO "posts" ("date", "rationale", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"
+2020-04-27 13:12:07.529 -04 [23395] ERROR:  null value in column "user_id" violates not-null constraint
+2020-04-27 13:12:07.529 -04 [23395] DETAIL:  Failing row contains (3, 2020-04-27, Bla bla bla, 2020-04-27 17:12:07.528546, 2020-04-27 17:12:07.528546, null).
+2020-04-27 13:12:07.529 -04 [23395] STATEMENT:  INSERT INTO "posts" ("date", "rationale", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"
+2020-04-27 13:12:07.533 -04 [23395] ERROR:  null value in column "user_id" violates not-null constraint
+2020-04-27 13:12:07.533 -04 [23395] DETAIL:  Failing row contains (4, 2020-04-27, Bla bla bla, 2020-04-27 17:12:07.532711, 2020-04-27 17:12:07.532711, null).
+2020-04-27 13:12:07.533 -04 [23395] STATEMENT:  INSERT INTO "posts" ("date", "rationale", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"
