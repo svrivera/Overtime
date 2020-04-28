@@ -64,3 +64,13 @@
 2020-04-27 13:12:07.533 -04 [23395] ERROR:  null value in column "user_id" violates not-null constraint
 2020-04-27 13:12:07.533 -04 [23395] DETAIL:  Failing row contains (4, 2020-04-27, Bla bla bla, 2020-04-27 17:12:07.532711, 2020-04-27 17:12:07.532711, null).
 2020-04-27 13:12:07.533 -04 [23395] STATEMENT:  INSERT INTO "posts" ("date", "rationale", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"
+2020-04-27 19:59:01.876 -04 [31008] ERROR:  database "Overtime_development" is being accessed by other users
+2020-04-27 19:59:01.876 -04 [31008] DETAIL:  There is 1 other session using the database.
+2020-04-27 19:59:01.876 -04 [31008] STATEMENT:  DROP DATABASE IF EXISTS "Overtime_development"
+2020-04-27 19:59:36.632 -04 [31031] ERROR:  database "Overtime_development" is being accessed by other users
+2020-04-27 19:59:36.632 -04 [31031] DETAIL:  There is 1 other session using the database.
+2020-04-27 19:59:36.632 -04 [31031] STATEMENT:  DROP DATABASE IF EXISTS "Overtime_development"
+2020-04-27 20:12:08.213 -04 [31378] ERROR:  database "Overtime_development" already exists
+2020-04-27 20:12:08.213 -04 [31378] STATEMENT:  CREATE DATABASE "Overtime_development" ENCODING = 'unicode'
+2020-04-27 20:12:08.223 -04 [31386] ERROR:  database "Overtime_test" already exists
+2020-04-27 20:12:08.223 -04 [31386] STATEMENT:  CREATE DATABASE "Overtime_test" ENCODING = 'unicode'
