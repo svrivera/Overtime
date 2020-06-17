@@ -74,3 +74,13 @@
 2020-04-27 20:12:08.213 -04 [31378] STATEMENT:  CREATE DATABASE "Overtime_development" ENCODING = 'unicode'
 2020-04-27 20:12:08.223 -04 [31386] ERROR:  database "Overtime_test" already exists
 2020-04-27 20:12:08.223 -04 [31386] STATEMENT:  CREATE DATABASE "Overtime_test" ENCODING = 'unicode'
+2020-05-04 17:22:22.536 -04 [84462] FATAL:  database "robin_hood_test" does not exist
+2020-05-04 17:36:17.542 -04 [84826] FATAL:  database "robin_hood_test" does not exist
+2020-05-04 17:41:00.779 -04 [84929] FATAL:  database "robin_hood_test" does not exist
+2020-05-04 17:41:50.696 -04 [84954] FATAL:  database "robin_hood_development" does not exist
+2020-05-04 17:42:17.923 -04 [84977] FATAL:  database "robin_hood_test" does not exist
+2020-05-04 17:43:08.545 -04 [85003] FATAL:  database "robin_hood_test" does not exist
+2020-05-04 18:10:07.992 -04 [4561] LOG:  received smart shutdown request
+2020-05-04 18:10:07.995 -04 [4561] LOG:  background worker "logical replication launcher" (PID 4568) exited with exit code 1
+2020-05-04 18:10:07.996 -04 [4563] LOG:  shutting down
+2020-05-04 18:10:08.004 -04 [4561] LOG:  database system is shut down
